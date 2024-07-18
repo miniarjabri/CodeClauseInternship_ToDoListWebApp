@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #333;
+    color: #fff; /* Set default text color for the body */
+}
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+header a {
+    color: #fff; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Adjust font size */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+header a:hover {
+    color: #2d9b8b; /* Color on hover */
+}
+
+h1 {
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Container Title */
+.container-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+    text-shadow: 2px 2px #333;
+}
+
+/* Container */
+.inputcol {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.textarea {
+    min-height: 50px;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #43c6ac;
+    font-size: 1rem;
+    padding: 10px;
+    resize: none;
+}
+
+.textarea::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #f0f0f0;
+}
+
+.textarea::-webkit-scrollbar {
+    width: 10px;
+}
+
+.textarea::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #43c6ac;
+}
+
+.textarea:focus {
+    outline: none;
+    border-color: #333;
+}
+
+.buttoninput {
+    border-radius: 10px;
+    border: none;
+    background-color: #43c6ac;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buttoninput:hover {
+    background-color: #2d9b8b;
+}
+
+/* To-Do List */
+.todolist {
+    margin-top: 20px;
+    color: #333;
+}
+
+.itemall {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    gap: 5px;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.item, .check-button, .trash-button {
+    border: none;
+    background-color: white;
+    min-height: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    border-radius: 10px 0 0 10px;
+    font-size: 1rem;
+    background-color: #f8f9fa;
+    border: 2px solid #e9ecef;
+}
+
+.check-button, .trash-button {
+    font-size: 1rem;
+    background-color: #43c6ac;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.check-button {
+    border-radius: 0 0 0 10px;
+}
+
+.trash-button {
+    border-radius: 0 10px 10px 0;
+}
+
+.check-button:hover {
+    background-color: #37b3cc;
+}
+
+.trash-button:hover {
+    background-color: #ff6b6b;
+}
+
+.checklist {
+    text-decoration: line-through;
+}
+
+.fa-check, .fa-trash {
+    pointer-events: none;
+}
+
+button, .check-button, .trash-button {
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #f3efef;
+    font-size: 0.9rem;
+}
+
+.footer p {
+    margin-bottom: 5px;
+}
+
+.footer a {
+    color: #43c6ac;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #2d9b8b;
+}
